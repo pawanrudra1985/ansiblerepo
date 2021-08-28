@@ -1,7 +1,6 @@
 ---
 - name: GRAB F5 FACTS
   hosts: F5-Device-Inventory
-  connection: local
   gather_facts: false
 
   tasks:
