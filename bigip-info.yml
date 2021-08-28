@@ -4,6 +4,7 @@
   gather_facts: false
 
   tasks:
+  - name: COLLECT BIG_IP FACTS
       f5networks.f5_modules.bigip_device_info:
         gather_subset:
           - system-info
