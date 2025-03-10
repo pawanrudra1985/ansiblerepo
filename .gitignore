@@ -1,0 +1,11 @@
+# Ignore Ansible temporary files
+*.retry
+
+# Ignore SSH keys
+*.pem
+
+# Ignore Python virtual environments
+venv/
+
+#Ignore vccode folder
+.vscode
